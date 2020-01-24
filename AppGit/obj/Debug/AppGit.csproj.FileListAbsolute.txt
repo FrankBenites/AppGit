@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\AppGit\AppGit\bin\Debug\AppGit.exe.config
+C:\Users\user\Desktop\AppGit\AppGit\bin\Debug\AppGit.exe
+C:\Users\user\Desktop\AppGit\AppGit\bin\Debug\AppGit.pdb
+C:\Users\user\Desktop\AppGit\AppGit\obj\Debug\AppGit.csprojAssemblyReference.cache
+C:\Users\user\Desktop\AppGit\AppGit\obj\Debug\AppGit.Form1.resources
+C:\Users\user\Desktop\AppGit\AppGit\obj\Debug\AppGit.Properties.Resources.resources
+C:\Users\user\Desktop\AppGit\AppGit\obj\Debug\AppGit.csproj.GenerateResource.cache
+C:\Users\user\Desktop\AppGit\AppGit\obj\Debug\AppGit.exe
+C:\Users\user\Desktop\AppGit\AppGit\obj\Debug\AppGit.pdb
