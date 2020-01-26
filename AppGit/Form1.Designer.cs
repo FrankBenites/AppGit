@@ -33,11 +33,14 @@
             this.txtN1 = new System.Windows.Forms.TextBox();
             this.txtN2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtResultado = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnSumar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnDividir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,23 +91,12 @@
             this.panel1.Size = new System.Drawing.Size(794, 206);
             this.panel1.TabIndex = 4;
             // 
-            // label3
+            // txtResultado
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(218, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 17);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "SUMA:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(233, 91);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(16, 17);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "+";
+            this.txtResultado.Location = new System.Drawing.Point(555, 89);
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(236, 22);
+            this.txtResultado.TabIndex = 7;
             // 
             // label5
             // 
@@ -115,16 +107,27 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "=";
             // 
-            // txtResultado
+            // label4
             // 
-            this.txtResultado.Location = new System.Drawing.Point(555, 89);
-            this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(236, 22);
-            this.txtResultado.TabIndex = 7;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(233, 91);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(16, 17);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "+";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(218, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 17);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "SUMA:";
             // 
             // btnSumar
             // 
-            this.btnSumar.Location = new System.Drawing.Point(351, 337);
+            this.btnSumar.Location = new System.Drawing.Point(61, 308);
             this.btnSumar.Name = "btnSumar";
             this.btnSumar.Size = new System.Drawing.Size(75, 23);
             this.btnSumar.TabIndex = 5;
@@ -132,11 +135,44 @@
             this.btnSumar.UseVisualStyleBackColor = true;
             this.btnSumar.Click += new System.EventHandler(this.btnSumar_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(201, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(79, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "RESTAR";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(365, 308);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(115, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "MULTIPLICAR";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btnDividir
+            // 
+            this.btnDividir.Location = new System.Drawing.Point(586, 308);
+            this.btnDividir.Name = "btnDividir";
+            this.btnDividir.Size = new System.Drawing.Size(119, 23);
+            this.btnDividir.TabIndex = 8;
+            this.btnDividir.Text = "Dividir";
+            this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 494);
+            this.Controls.Add(this.btnDividir);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSumar);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -160,6 +196,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnSumar;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnDividir;
     }
 }
 

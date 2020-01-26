@@ -37,5 +37,39 @@ namespace AppGit
 
             txtResultado.Text = "" + resultado;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int n1, n2, resultado;
+
+            n1 = Convert.ToInt32(txtN1.Text);
+            n2 = Convert.ToInt32(txtN2.Text);
+            resultado = n1 - n2;
+
+            txtResultado.Text = "" + resultado;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int n1, n2, resultado;
+
+            n1 = Convert.ToInt32(txtN1.Text);
+            n2 = Convert.ToInt32(txtN2.Text);
+            resultado = n1 * n2;
+
+            txtResultado.Text = "" + resultado;
+        }
+
+        private void btnDividir_Click(object sender, EventArgs e)
+        {
+            int n1, n2, resultado;
+
+            n1 = Convert.ToInt32(txtN1.Text);
+            n2 = Convert.ToInt32(txtN2.Text);
+
+            resultado = n1 / n2;
+
+            txtResultado.Text = "" + resultado;
+        }
     }
 }
