@@ -71,5 +71,12 @@ namespace AppGit
 
             txtResultado.Text = "" + resultado;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            txtN1.Clear();
+            txtN2.Clear();
+            txtResultado.Clear();
+        }
     }
 }
