@@ -31,7 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtN1 = new System.Windows.Forms.TextBox();
-            this.txtN2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.btnDividir = new System.Windows.Forms.Button();
@@ -44,6 +43,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.txtN2 = new System.Windows.Forms.TextBox();
+            this.btnAleatorio = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,15 +73,9 @@
             this.txtN1.Size = new System.Drawing.Size(75, 22);
             this.txtN1.TabIndex = 2;
             // 
-            // txtN2
-            // 
-            this.txtN2.Location = new System.Drawing.Point(374, 91);
-            this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(75, 22);
-            this.txtN2.TabIndex = 3;
-            // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnAleatorio);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.btnDividir);
             this.panel1.Controls.Add(this.label6);
@@ -97,7 +92,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(109, 149);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(823, 216);
+            this.panel1.Size = new System.Drawing.Size(988, 216);
             this.panel1.TabIndex = 4;
             // 
             // button3
@@ -203,11 +198,28 @@
             this.label7.TabIndex = 5;
             this.label7.Text = "BIENVENIDO AL CURSO DE C#";
             // 
+            // txtN2
+            // 
+            this.txtN2.Location = new System.Drawing.Point(374, 91);
+            this.txtN2.Name = "txtN2";
+            this.txtN2.Size = new System.Drawing.Size(75, 22);
+            this.txtN2.TabIndex = 3;
+            // 
+            // btnAleatorio
+            // 
+            this.btnAleatorio.Location = new System.Drawing.Point(139, 131);
+            this.btnAleatorio.Name = "btnAleatorio";
+            this.btnAleatorio.Size = new System.Drawing.Size(229, 27);
+            this.btnAleatorio.TabIndex = 6;
+            this.btnAleatorio.Text = "Numeros Aleatorios";
+            this.btnAleatorio.UseVisualStyleBackColor = true;
+            this.btnAleatorio.Click += new System.EventHandler(this.btnAleatorio_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 503);
+            this.ClientSize = new System.Drawing.Size(1224, 561);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -225,7 +237,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtN1;
-        private System.Windows.Forms.TextBox txtN2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtResultado;
         private System.Windows.Forms.Label label5;
@@ -238,6 +249,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnAleatorio;
+        private System.Windows.Forms.TextBox txtN2;
     }
 }
 
