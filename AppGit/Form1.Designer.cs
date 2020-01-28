@@ -45,6 +45,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtN2 = new System.Windows.Forms.TextBox();
             this.btnAleatorio = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,6 +76,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnAleatorio);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.btnDividir);
@@ -215,6 +217,16 @@
             this.btnAleatorio.UseVisualStyleBackColor = true;
             this.btnAleatorio.Click += new System.EventHandler(this.btnAleatorio_Click);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(900, 16);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(73, 23);
+            this.btnSalir.TabIndex = 11;
+            this.btnSalir.Text = "SALIR";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -251,6 +263,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnAleatorio;
         private System.Windows.Forms.TextBox txtN2;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

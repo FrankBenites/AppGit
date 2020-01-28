@@ -85,11 +85,17 @@ namespace AppGit
             Random aleaterio = new Random();
             int numero1, numero2;
 
-            numero1 = aleaterio.Next(); //1, 11
-            numero2 = aleaterio.Next();
+            numero1 = aleaterio.Next(1, 11);
+            numero2 = aleaterio.Next(1, 11);
 
             txtN1.Text = Convert.ToString(numero1);
             txtN2.Text = Convert.ToString(numero2);
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
         }
     }
 }
